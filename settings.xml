@@ -1,4 +1,4 @@
-<setting>
+<settings>
 
 <servers>
   <server>
@@ -33,4 +33,4 @@
   </mirror>
 </mirrors>
 
-</setting>
+</settings>
