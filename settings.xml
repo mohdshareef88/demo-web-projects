@@ -2,7 +2,7 @@
 
 <servers>
   <server>
-    <id>projdevops-devops-repo-cicd</id>
+    <id>devops7days-7day-devops</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -10,14 +10,14 @@
 
 <profiles>
   <profile>
-    <id>projdevops-devops-repo-cicd</id>
+    <id>devops7days-7day-devops</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>projdevops-devops-repo-cicd</id>
-        <url>https://projdevops-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/devops-repo-cicd/</url>
+        <id>devops7days-7day-devops</id>
+        <url>https://devops7days-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/7day-devops/</url>
       </repository>
     </repositories>
   </profile>
@@ -26,9 +26,9 @@
 
 <mirrors>
   <mirror>
-    <id>projdevops-devops-repo-cicd</id>
-    <name>projdevops-devops-repo-cicd</name>
-    <url>https://projdevops-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/devops-repo-cicd/</url>
+    <id>devops7days-7day-devops</id>
+    <name>devops7days-7day-devops</name>
+    <url>https://devops7days-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/7day-devops/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
