@@ -2,7 +2,7 @@
 
 <servers>
   <server>
-    <id>devops7days-7day-devops</id>
+    <id>devopsdomain-codearti4devops</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -10,14 +10,14 @@
 
 <profiles>
   <profile>
-    <id>devops7days-7day-devops</id>
+    <id>devopsdomain-codearti4devops</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>devops7days-7day-devops</id>
-        <url>https://devops7days-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/7day-devops/</url>
+        <id>devopsdomain-codearti4devops</id>
+        <url>https://devopsdomain-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/codearti4devops/</url>
       </repository>
     </repositories>
   </profile>
@@ -26,9 +26,9 @@
 
 <mirrors>
   <mirror>
-    <id>devops7days-7day-devops</id>
-    <name>devops7days-7day-devops</name>
-    <url>https://devops7days-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/7day-devops/</url>
+    <id>devopsdomain-codearti4devops</id>
+    <name>devopsdomain-codearti4devops</name>
+    <url>https://devopsdomain-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/codearti4devops/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
