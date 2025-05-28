@@ -1,8 +1,9 @@
 <settings>
 
+
 <servers>
   <server>
-    <id>devopsdomain-codearti4devops</id>
+    <id>codearti-domain-nextwork-codeartifact-repo</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -10,25 +11,24 @@
 
 <profiles>
   <profile>
-    <id>devopsdomain-codearti4devops</id>
+    <id>codearti-domain-nextwork-codeartifact-repo</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>devopsdomain-codearti4devops</id>
-        <url>https://devopsdomain-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/codearti4devops/</url>
+        <id>codearti-domain-nextwork-codeartifact-repo</id>
+        <url>https://codearti-domain-879381283978.d.codeartifact.eu-north-1.amazonaws.com/maven/nextwork-codeartifact-repo/</url>
       </repository>
     </repositories>
   </profile>
 </profiles>
 
-
 <mirrors>
   <mirror>
-    <id>devopsdomain-codearti4devops</id>
-    <name>devopsdomain-codearti4devops</name>
-    <url>https://devopsdomain-879381283978.d.codeartifact.ap-south-1.amazonaws.com/maven/codearti4devops/</url>
+    <id>codearti-domain-nextwork-codeartifact-repo</id>
+    <name>codearti-domain-nextwork-codeartifact-repo</name>
+    <url>https://codearti-domain-879381283978.d.codeartifact.eu-north-1.amazonaws.com/maven/nextwork-codeartifact-repo/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
