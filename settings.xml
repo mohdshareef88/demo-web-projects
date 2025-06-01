@@ -3,7 +3,7 @@
 
 <servers>
   <server>
-    <id>artifact-domain-codeartifact-repo</id>
+    <id>artifact-domain-Artifact-repo-cicd</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -11,14 +11,14 @@
 
 <profiles>
   <profile>
-    <id>artifact-domain-codeartifact-repo</id>
+    <id>artifact-domain-Artifact-repo-cicd</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>artifact-domain-codeartifact-repo</id>
-        <url>https://artifact-domain-879381283978.d.codeartifact.us-east-2.amazonaws.com/maven/codeartifact-repo/</url>
+        <id>artifact-domain-Artifact-repo-cicd</id>
+        <url>https://artifact-domain-879381283978.d.codeartifact.us-east-1.amazonaws.com/maven/Artifact-repo-cicd/</url>
       </repository>
     </repositories>
   </profile>
@@ -26,9 +26,9 @@
 
 <mirrors>
   <mirror>
-    <id>artifact-domain-codeartifact-repo</id>
-    <name>artifact-domain-codeartifact-repo</name>
-    <url>https://artifact-domain-879381283978.d.codeartifact.us-east-2.amazonaws.com/maven/codeartifact-repo/</url>
+    <id>artifact-domain-Artifact-repo-cicd</id>
+    <name>artifact-domain-Artifact-repo-cicd</name>
+    <url>https://artifact-domain-879381283978.d.codeartifact.us-east-1.amazonaws.com/maven/Artifact-repo-cicd/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
